@@ -1,0 +1,9 @@
+a:hover
+{
+	color: green;
+}
+
+p:hover
+{
+	border-left: 3px solid black;
+}

@@ -1,0 +1,8 @@
+body {background-color:#D3D3D3;
+	text-align: center; /*centrer sous Firefox*/
+}
+table {margin: 0 auto; /*centrer sous Internet Explorer*/
+	width: 1000px;
+	height: 50px;
+	background-color:#FFFFFF;
+}

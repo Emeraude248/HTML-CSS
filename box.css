@@ -1,0 +1,58 @@
+h1 {
+	color: darkred;
+	text-align: center;
+	background-color: floralwhite;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto; /*pour centrer la box de titre, sinon collé à gauche*/
+	border-radius: 10em/20em;
+	box-shadow: 2px 4px 8px lightgray;
+	padding-bottom: 2px;
+}
+
+body {
+	background-color: #FCDCEF;
+	color: darkred;
+}
+
+P {
+	background-color: floralwhite;
+	width: 45em;
+	margin:  auto;
+	padding: 1em; 
+	text-align: justify;
+}
+
+#conteneur {
+	width: 45em;
+	border: 2px solid #444;
+	display:  flex;
+	margin: auto;
+}
+
+.élément {
+	width: 15em;
+	 height: 6em;
+	 text-align: center;
+}
+
+.élément:nth-child(1){
+	background-color: lightcoral;
+}
+.élément:nth-child(2){
+	background-color: lightsalmon;
+}
+.élément:nth-child(3){
+	background-color: lightcoral;
+}
+
+.élément:hover {
+	background-color: Black;
+	color: white;
+
+}
+
+a {
+	color: darkred;
+}
+

@@ -1,0 +1,35 @@
+body {
+	background: url("538623-bulles-de-savon-sur-fond-rose-gratuit-vectoriel.jpg") no-repeat;
+	background-size: 100%;
+	color: darkred;
+	font-style: italic; /*italique*/
+	font-weight: bolder; /*gras*/
+	
+	font-family: Arial; /* posibilité de faire télécharger une police à l'utilisateur, mais flème de le faire voir partie : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte */
+}
+p{
+	font-size: 1.3em; /* em taille relative s'adapte aux différents type d'écran, 1=normal */
+}
+.déco {
+	text-decoration: underline; /* souligner, barrer... ;  */
+}
+.flottant {
+	float: left; /* pour placer un élément flottant par rapport au reste des éléments ici la photo est à droite,
+	 dans l'autre sens avec un paragraphe, ça ferai comme les lettrines dans les bouquins ;
+	 pour annuler pour un élément suivant sans que ça touche au flottement, utiliser clear (right, letf, both)avec une class ;
+	 finalement ça marche avec div (première tentative infructeuse ?!)*/
+	border-right: 1em solid rgba(0, 0, 0, 0); /*rgb pour la couleur et a pour rendre la bordure transparente ; remplace opacity*/
+}
+.intro {
+	font-size: 1em;
+}
+h1{
+	border : 4px solid pink;
+	border-radius: 20px / 10px;
+	box-shadow: 2px 4px 8px lightgrey;
+	background-color: floralwhite;
+}
+
+h2 {
+	text-shadow: 2px 4px 8px black;
+}
